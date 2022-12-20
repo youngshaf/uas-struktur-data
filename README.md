@@ -25,3 +25,5 @@ _____________________________________________
 | | | | | | | | | | |      <--- Pintu Masuk
 ---------------------------------------------
 ```
+## Problem Pengimplementasian
+Jika kendaraan sudah melewati antrian parkir, lalu masuk ke parkiran. Seharusnya data yang di antrian akan menghilang (karena kendaraan sudah masuk ke parkiran). Tampilan pada antrian dan parkiran seharusnya berbeda.
