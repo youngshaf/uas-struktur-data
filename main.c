@@ -82,6 +82,7 @@ void masuk_antrian(){
     main();
 }
 
+
 void keluar_antrian(){
     if (phead == NULL){
         printf("Antrian kosong\n");
@@ -109,6 +110,7 @@ void keluar_antrian(){
     }
 }
 
+//print data
 void tampil_antrian(){
     struct node* pcurrent = phead;
     int i = 1;
