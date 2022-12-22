@@ -1,4 +1,12 @@
 # UAS
+
+## Contributors
+
+<a href = "https://github.com/Naffsisky/uas-struktur-data/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Naffsisky/uas-struktur-data"/>
+</a>
+
+
 ## Method
 
 ```
