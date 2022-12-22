@@ -1,7 +1,9 @@
+// Module
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+// Declaration
 void masuk_antrian();
 void keluar_antrian();
 void tampil_antrian();
@@ -9,6 +11,7 @@ void tampil_parkir();
 void keluar_parkir();
 void masuk_parkir();
 
+// Struct
 struct node* phead = NULL;
 
 struct node{
@@ -18,6 +21,7 @@ struct node{
     struct node* next;
 }; typedef struct node node;
 
+// Main Function
 int main(){
     int pilih;
     printf("--- MENU ---\n\n");
@@ -60,6 +64,7 @@ int main(){
     }
 }
 
+// Function antrian
 void masuk_antrian(){
     struct node* pnew = (struct node*)malloc(sizeof(struct node));
     printf("Masukan plat nomor : ");
@@ -126,6 +131,7 @@ void tampil_antrian(){
     main();
 }
 
+// Function parkir
 void tampil_parkir(){
     printf("Kendaraan yang sudah masuk parkir\n");
     struct node* pcurrent = phead;
