@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Declaration
+// Declarations
 void masuk_antrian();
 void keluar_antrian();
 void tampil_antrian();
