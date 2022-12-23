@@ -24,7 +24,7 @@ struct node{
 // Main Function
 int main(){
     int pilih;
-    printf("--- MENU ---\n\n");
+    printf("<<--- MENU --->>\n");
     printf("* Program Parkir Dengan Stack dan Queue *\n\n");
     printf("1. Masuk antrian parkir\n");
     printf("2. Keluar antrian parkir\n");
