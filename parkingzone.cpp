@@ -125,6 +125,7 @@ void hapusAntrian()
   }
 }
 
+// update hapusParkir(fixed)
 void hapusParkir()
 {
   parkir *hapus;
@@ -132,6 +133,12 @@ void hapusParkir()
   if (hapus == NULL)
   {
     cout << "Parkir Kosong!" << endl;
+  }
+  else if (phead2 == ptail2)
+  {
+    delete phead2;
+    phead2 = NULL;
+    ptail2 = NULL;
   }
   else
   {
@@ -159,8 +166,8 @@ int main()
     cout << "2. Masuk Parkir\n";
     cout << "3. Tampilkan Antrian\n";
     cout << "4. Tampilkan Parkir\n";
-    cout << "5. Keluar Antrian\n";
-    cout << "6. Keluar Parkir\n";
+    cout << "5. Hapus Parkir\n";
+    cout << "6. Hapus Antrian\n";
     cout << "\n0. Keluar program\n\n";
     cout << "Pilih : ";
     cin >> pilih;
@@ -180,10 +187,10 @@ int main()
       tampilParkir();
       break;
     case 5:
-      hapusAntrian();
+      hapusParkir();
       break;
     case 6:
-      hapusParkir();
+      hapusAntrian();
       break;
     default:
       system("cls");
