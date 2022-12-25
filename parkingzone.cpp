@@ -156,7 +156,7 @@ int main()
     cout << "--- MENU ---\n\n";
     cout << "* Program Parkir Dengan Stack dan Queue *\n\n";
     cout << "1. Tambah Antrian\n";
-    cout << "2. Tambah Parkir\n";
+    cout << "2. Masuk Parkir\n";
     cout << "3. Tampilkan Antrian\n";
     cout << "4. Tampilkan Parkir\n";
     cout << "5. Keluar Antrian\n";
