@@ -25,8 +25,8 @@ Queue dan Stack
 ## Latar Belakang
 
 Final project yang kami kerjakan dengan judul “Aplikasi PARKING-ZONE” 
-progam ini dibuat untuk kebutuhan tempat parkir, khususnya di daerah Fakultas Ilmu Komputer yang semakin bertambah seiring dengan banyaknya kendaraan mahasiswa FASILKOM. oleh sebab itu, dibutuhkan solusi yang dapat membantu mahasiswa untuk menentukan tempat parkir dengan cepat, aman, dan nyaman.
-Terkadang kita sedang buru buru untuk mengikuti kelas sehingga tidak mendapatkan parkiran karena banyak kendaraan mahasiswa yang sudah menempati batas parkir kendaraan lain. Salah satu solusi untuk menentukan tempat parkir dengan mudah dalam kondisi ini adalah dengan menggunakan program PARKING-ZONE. Program ini dibuat untuk membantu agar lokasi parkir mahasiswa lebih rapi dan tertata sehingga tidak ada kendaraan yang mengambil jatah parkir untuk kendaraan lain.
+progam ini dibuat untuk kebutuhan lahan parkir, khususnya di daerah Fakultas Ilmu Komputer yang semakin bertambah seiring dengan banyaknya kendaraan mahasiswa FASILKOM. oleh sebab itu, dibutuhkan solusi yang dapat membantu mahasiswa untuk menentukan tempat parkir dengan cepat, aman, dan nyaman.
+Terkadang kita sedang buru buru untuk mengikuti kelas sehingga tidak mendapatkan parkiran karena banyak kendaraan mahasiswa yang sudah menempati batas parkir kendaraan lain. Salah satu solusi untuk menentukan tempat parkir dengan mudah dalam kondisi ini adalah dengan menggunakan program PARKING-ZONE. Program ini dibuat untuk membantu agar lokasi parkir mahasiswa lebih tertata dan rapi. Sehingga tidak ada kendaraan yang mengambil dua tempat parkir sekaligus dan tersedia lebih banyak lahan parkir untuk diisi motor mahasiswa lain.
 “Aplikasi PARKING-ZONE “ yang kami buat menginplementasikan tipe Struktur Data Queue dan Stack.
 
 
@@ -48,8 +48,8 @@ Terkadang kita sedang buru buru untuk mengikuti kelas sehingga tidak mendapatkan
     bahasa pemrograman C++ bisa dipakai untuk membuat aplikasi desktop seperti yang kelompok kami buat.
     
 3.	Queue adalah sekumpulan data yang mana penambahan elemen hanya bisa dilakukan pada suatu ujung yang disebut sisi belakang (rear), 
-    dan penghapusan (pengambilan elemen) dilakukan lewat ujung lain. Contoh queue paling sederhana dapat dilihat pada antrian. Queue 
-    menerapkan metode FIFO(First In First Out) dimana data yang datang atau diimputkan pertama kali akan menjadi data yang keluar pertama.
+    dan penghapusan (pengambilan elemen) dilakukan lewat ujung lain. Contoh queue paling sederhana dapat dilihat pada antrian. Karakteristik Queue 
+    sendiri bersifat FIFO(First In First Out) dimana data yang datang atau diimputkan pertama kali akan menjadi data yang keluar pertama.
     
 4.	Stack atau Tumpukan adalah suatu struktur data yang terbentuk dari barisan hingga yang terurut dari satuan data. Pada Stack, penambahan 
     dan penghapusan elemennya hanya dapat dilakukan pada satu posisi, yaitu posisi akhir stack. Posisi ini disebut Puncak atau Top dari stack. 
