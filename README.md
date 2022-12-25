@@ -7,12 +7,15 @@
 </a>
 
 ## Anggota
+
+```
 1. SAMUEL WIJAYA (21081010249)
-2. SHAFIRA ZAHRAH HIDAYAT(21081010254)
-3. SATRIA FARRAS ATHALLANSYAH(21081010258)
-4. MUHAMMAD RAFLI PRATAMA(21081010262)
-5. AHMAD DHANY PRAYOGI(21081010269)
-6. PRINAFSIKA(21081010278)
+2. SHAFIRA ZAHRAH HIDAYAT (21081010254)
+3. SATRIA FARRAS ATHALLANSYAH (21081010258)
+4. MUHAMMAD RAFLI PRATAMA (21081010262)
+5. AHMAD DHANY PRAYOGI (21081010269)
+6. PRINAFSIKA (21081010278)
+```
 
 ## Metode yang digunakan
 
@@ -37,6 +40,7 @@ Terkadang kita sedang buru buru untuk mengikuti kelas sehingga tidak mendapatkan
 
 
 ## Pembahasan
+
 1.	Bahasa Pemrograman C++ adalah bahasa pemrograman komputer yang bisa dipakai untuk membuat berbagai aplikasi 
     (general-purpose programming language), dan merupakan pengembangan dari bahasa pemrograman C. 
     
@@ -52,9 +56,8 @@ Terkadang kita sedang buru buru untuk mengikuti kelas sehingga tidak mendapatkan
     Karakteristik stack sendiri bersifat LIFO (last in first out). Artinya, data yang terakhir masuk merupakan data yang akan keluar terlebih dahulu.
     
 ## Penutup
-```
+
 Dari penjelasan diatas dapat kami simpulkan bahwa final project yang kami kerjakan mengikuti kaidah pemrograman bahasa C++ 
 dengan mengimplementasikan tipe Struktur Data Queue dan Stack. Sekian laporan yang dapat kami sampaikan terkait final project 
 mata kuliah pemrograman lanjut dengan judul “PARKING-ZONE”. Dengan minimnya pengetahuan yang kami miliki dalam pembuatan laporan ini,
 sehingga kami mohon arahan untuk saran dan kesannya agar laporan ini dapat menjadi lebih baik lagi. Terima kasih.
-```
