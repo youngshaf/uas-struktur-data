@@ -35,7 +35,7 @@ Terkadang kita sedang buru buru untuk mengikuti kelas sehingga tidak mendapatkan
 1.	Menciptakan program yang user friendly.
 2.	Dapat menuliskan source code yang efisien.
 3.	Dapat membuat program yang fungsional.
-4.	Menyelesaikan final project mata kuliah Struktur Data E081
+4.	Menyelesaikan final project mata kuliah Struktur Data A081
 ```
 
 
