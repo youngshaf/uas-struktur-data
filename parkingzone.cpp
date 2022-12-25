@@ -44,6 +44,7 @@ void tambahAntrian()
   }
 }
 
+void hapusAntrian();
 void tambahParkir()
 {
   if (phead == NULL)
