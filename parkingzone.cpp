@@ -44,11 +44,8 @@ void tambahAntrian()
   }
 }
 
-void hapusAntrian();
 void tambahParkir()
 {
-  // Menyambungkan antrian ke parkir
-  // Jika tambah parkir, maka antrian pertama akan dihapus
   if (phead == NULL)
   {
     cout << "Antrian Kosong!" << endl;
@@ -161,8 +158,8 @@ int main()
     cout << "2. Tambah Parkir\n";
     cout << "3. Tampilkan Antrian\n";
     cout << "4. Tampilkan Parkir\n";
-    cout << "5. Hapus Antrian\n";
-    cout << "6. Hapus Parkir\n";
+    cout << "5. Keluar Antrian\n";
+    cout << "6. Keluar Parkir\n";
     cout << "\n0. Keluar program\n\n";
     cout << "Pilih : ";
     cin >> pilih;
@@ -195,5 +192,5 @@ int main()
       }
     }
     system("pause");
-  } while (pilih != 6);
+  } while (pilih != 0);
 }
