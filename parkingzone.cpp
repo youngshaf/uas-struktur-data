@@ -5,15 +5,15 @@ using namespace std;
 
 struct antrian
 {
-  char plat[10];
-  char jenis[10];
+  char plat[12];
+  char jenis[12];
   antrian *next;
 };
 
 struct parkir
 {
-  char plat[10];
-  char jenis[10];
+  char plat[12];
+  char jenis[12];
   parkir *next;
 };
 
@@ -28,9 +28,9 @@ void tambahAntrian()
   baru = new antrian;
   cout << "Masukkan Plat: ";
   cin.ignore();
-  cin.getline(baru->plat, 10);
+  cin.getline(baru->plat, 12);
   cout << "Masukkan Jenis: ";
-  cin.getline(baru->jenis, 10);
+  cin.getline(baru->jenis, 12);
   baru->next = NULL;
   if (phead == NULL)
   {
